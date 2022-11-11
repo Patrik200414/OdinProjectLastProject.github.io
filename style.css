@@ -38,8 +38,25 @@ ul li :hover{
     color: #e5e7eb;
     opacity: 0.5;
     text-decoration: underline;
-    transition: ease-in 0.3s;
-    
+    transition: ease-in 0.3s; 
+}
+.header-article{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    gap: 3%;
+}
+.header-text{
+    flex: 1;
+}
+.header-image{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.aston-martin{
+    width: 90%;
+    height: 90%;
 }
 
 img{
