@@ -10,7 +10,7 @@ header{
     flex-direction: column;
     background-color: #002420;
 }
-h2{
+header h2{
     flex: 1;
     color: #fff;
 }
@@ -105,6 +105,40 @@ h1{
 }
 .sign-up-button:hover::before{
     transform: translate(12px, 12px);
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+}
+.first-section h2{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+.article-picture-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.img-text img{
+    max-width: 1200px;
+    min-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    height: 230px;
 }
 
 img{
