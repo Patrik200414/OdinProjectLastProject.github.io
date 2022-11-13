@@ -145,7 +145,6 @@ article{
 }
 
 .second-section{
-    background-color: rgb(39, 216, 108);
     background: linear-gradient(22deg, rgb(39, 216, 108) 0%, rgb(82, 235, 35) 50%, #2cdf14 100%);
     color: #fff;
     min-height: 200px;
@@ -187,6 +186,24 @@ article{
    display: flex;
    align-items: center;
    justify-content: center;
+}
+.sign-up-section{
+    background: linear-gradient(22deg, rgb(39, 216, 108) 0%, rgb(82, 235, 35) 50%, #2cdf14 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    filter:contrast(5px);
+}
+.sign-up-holder{
+    background-color: #002420;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    border-radius: 30px;
+
 }
 
 img{
