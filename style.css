@@ -145,7 +145,8 @@ article{
 }
 
 .second-section{
-    background-color: #002420;
+    background-color: rgb(39, 216, 108);
+    background: linear-gradient(22deg, rgb(39, 216, 108) 0%, rgb(82, 235, 35) 50%, #2cdf14 100%);
     color: #fff;
     min-height: 200px;
     height: 400px;
@@ -156,7 +157,31 @@ article{
     flex: 1 1 auto;
     font-size: 2vw;
 }
-
+@media screen and (max-width: 700px) {
+    .second-section{
+        font-size: 3vw;
+    }
+    .header-article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-text{
+        margin-bottom: 10%;
+        width: 80%;
+    }
+    .header-text h1{
+        margin-bottom: 10%;
+        font-size: 32px;
+        text-align: center;
+    }
+    .header-text p{
+        text-align: center;
+    }
+    .header-text button{
+        margin-top: 10%;
+    }
+}
 
 img{
     width: 50%;
