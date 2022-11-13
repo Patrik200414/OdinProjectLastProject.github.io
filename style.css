@@ -182,6 +182,12 @@ article{
         margin-top: 10%;
     }
 }
+.video{
+   padding: 2%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 img{
     width: 50%;
