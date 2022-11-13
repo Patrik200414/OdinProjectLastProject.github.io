@@ -115,6 +115,7 @@ article{
 .first-section{
     display: flex;
     flex-direction: column;
+    margin-bottom: 8%;
 }
 .first-section h2{
     padding: 4%;
@@ -133,6 +134,7 @@ article{
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    padding: 1%;
 }
 .img-text img{
     max-width: 1200px;
@@ -141,6 +143,20 @@ article{
     margin-bottom: 5%;
     height: 230px;
 }
+
+.second-section{
+    background-color: #002420;
+    color: #fff;
+    min-height: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    font-size: 2vw;
+}
+
 
 img{
     width: 50%;
